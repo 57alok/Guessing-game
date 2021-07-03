@@ -42,7 +42,7 @@ header{
     position: absolute;
     left: 45%;
     top: 33vh;
-    padding-left: 17px;
+    padding-left: 29px;
     padding-top:30px;
     padding-right: 35px;
     text-align: center;
@@ -51,13 +51,13 @@ header{
 main{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 55vh;
 }
 .play_btn{
     padding: 10px;
     font-size: xx-large;
-    width: 180px;
+    width: 200px;
     font-family: 'press start 2P',monospace;
     margin: 10px;
     cursor: pointer;
@@ -76,6 +76,7 @@ main button{
     font-size: xx-large;
     font-family: 'press start 2P',monospace;
     text-align: center;
+    
 }
 main p{
     font-family:'press start 2P',monospace ;
@@ -84,4 +85,11 @@ main p{
 }
 .highS{
     margin-top: 50px;
+}
+.right{
+    padding-right: 100px;
+}
+.left{
+    padding-left: 180px;
+    
 }
